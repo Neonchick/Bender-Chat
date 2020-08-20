@@ -1,10 +1,9 @@
-package ru.skillbranch.devintensive
+package ru.skillbranch.bender_chat
 
 import android.graphics.Color
 import android.graphics.PorterDuff
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.util.Log
 import android.view.KeyEvent
 import android.view.View
@@ -13,8 +12,8 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
-import ru.skillbranch.devintensive.extensions.hideKeyboard
-import ru.skillbranch.devintensive.models.Bender
+import ru.skillbranch.bender_chat.extensions.hideKeyboard
+import ru.skillbranch.bender_chat.models.Bender
 
 class MainActivity : AppCompatActivity(), View.OnClickListener, TextView.OnEditorActionListener
 {

@@ -1,6 +1,4 @@
-package ru.skillbranch.devintensive.extensions
-
-import java.lang.StringBuilder
+package ru.skillbranch.bender_chat.extensions
 
 fun String.truncate(length: Int = 16):String
 {

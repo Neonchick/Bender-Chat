@@ -1,4 +1,4 @@
-package ru.skillbranch.devintensive.extensions
+package ru.skillbranch.bender_chat.extensions
 
 import androidx.fragment.app.Fragment
 
